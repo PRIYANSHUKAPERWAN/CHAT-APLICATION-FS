@@ -1,0 +1,2 @@
+node server.js
+# or install nodemon and run: npx nodemon server.js
