@@ -1,0 +1,23 @@
+Test the app (quick)
+
+Start backend: node server.js (port 5000)
+
+Start frontend: npm start (port 3000)
+
+Open http://localhost:3000 in one browser window — enter a name and Join.
+
+Open another tab or different browser and join with a different name.
+
+Send messages — both windows should instantly show all messages (including system join/leave messages). No refresh required.
+
+Notes & small improvements you can add
+
+Persist messages on server (in-memory or DB) so new joiners can see history.
+
+Add list of connected users and display it (emit userList from server).
+
+Support multiple rooms (namespaces or socket.join(room)).
+
+Add timestamps formatted nicely (e.g., toLocaleString() or moment).
+
+Add typing indicators: socket.on('typing') + broadcast.
