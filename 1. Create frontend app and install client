@@ -1,0 +1,3 @@
+npx create-react-app socket-chat-frontend
+cd socket-chat-frontend
+npm install socket.io-client
