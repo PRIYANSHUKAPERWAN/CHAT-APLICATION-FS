@@ -1,0 +1,4 @@
+mkdir socket-chat-backend
+cd socket-chat-backend
+npm init -y
+npm install express socket.io cors
